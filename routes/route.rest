@@ -1,0 +1,21 @@
+GET http://localhost:3001/planner
+
+
+###
+
+GET http://localhost:3001/planner/6402b4f1f1ceb337f6429f2a
+
+
+
+###
+POST http://localhost:3001/planner
+
+{
+    "name" : "daisy",
+    "species" : "daisyspecies",
+    "cultivar" : "something"
+}
+
+###
+
+DELETE http://localhost:3001/planner/6402b4f1f1ceb337f6429f2a
